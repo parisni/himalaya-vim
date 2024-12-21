@@ -38,6 +38,8 @@ function! s:open_picker(folders, on_select_folder) abort
   else
     if &rtp =~ 'telescope'
       let picker = 'telescope'
+    elseif &rtp =~ 'fzflua'
+      let picker = 'fzflua'
     elseif &rtp =~ 'fzf'
       let picker = 'fzf'
     else

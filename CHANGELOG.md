@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- support for `fzf-lua` as a folder picker
+
+### Added
+
 - Added option `g:himalaya_config_path` to customize the TOML configuration file.
 
 ### Changed
